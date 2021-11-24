@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+.navbar,
+.navContent,
+.logo {
+  display: flex;
+}
+footer h3 {
+  color: blue;
+}
+li {
+  list-style: none;
+}
