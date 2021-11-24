@@ -18,8 +18,8 @@ function navbar() {
         <li>Home</li>
         <li>About</li>
         <li>Menu</li>
+        <li>Cart</li>
       </ul>
-      <h3>Cart</h3>
     </nav>
   );
 }
