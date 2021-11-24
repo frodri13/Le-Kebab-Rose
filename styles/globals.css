@@ -14,14 +14,34 @@ a {
 * {
   box-sizing: border-box;
 }
-.navbar,
-.navContent,
+/* Navbar */
+nav {
+  display: grid;
+  width: 100%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 2rem;
+}
+.navcontent,
 .logo {
   display: flex;
+  flex: 1 1 10rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1 20rem;
+  padding: 1rem;
 }
 footer h3 {
   color: blue;
 }
 li {
   list-style: none;
+}
+nav h1 {
+  margin-right: 10rem;
+  margin-left: none;
+  padding: none;
 }

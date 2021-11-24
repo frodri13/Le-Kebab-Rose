@@ -3,9 +3,9 @@ import logo from "../public/logo.svg";
 
 function navbar() {
   return (
-    <nav className="navbar">
+    <nav>
       <div className="logo">
-        <h1>+3309324242</h1>
+        <h3>+33798342803</h3>
         <Image
           src={logo}
           alt={`Logo de le Kebab Rose`}
@@ -13,18 +13,13 @@ function navbar() {
           height={200}
         />
       </div>
-      <div className="navContent">
-        <div className="list">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Menu</li>
-          </ul>
-        </div>
-        <div className="cart">
-          <h3>Cart</h3>
-        </div>
-      </div>
+
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Menu</li>
+      </ul>
+      <h3>Cart</h3>
     </nav>
   );
 }
