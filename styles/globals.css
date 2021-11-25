@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 62.5%;
 }
 
 a {
@@ -13,6 +14,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+h3,
+li {
+  font-size: 1.5rem;
 }
 /* Navbar */
 nav {
@@ -48,4 +53,15 @@ nav h1 {
 .logo h3 {
   margin-right: 26rem;
   margin-top: 5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 6rem;
+}
+.menu div {
+  text-align: center;
+  margin: 3rem;
 }
