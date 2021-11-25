@@ -12,38 +12,68 @@ function Carte() {
     <section className="carte">
       <div className="menu">
         <div>
-          <Image src={salad} alt={``} width={100} height={100} />
+          <Image
+            src={salad}
+            alt={`SVG image of a salad.`}
+            width={100}
+            height={100}
+          />
 
           <h3>ENTREE</h3>
         </div>
         <div>
-          <Image src={sandwich} alt={``} width={100} height={100} />
+          <Image
+            src={sandwich}
+            alt={`SVG image of a sandwich.`}
+            width={100}
+            height={100}
+          />
 
           <h3>SANDWICH</h3>
         </div>
         <div>
-          <Image src={sandwich} alt={``} width={100} height={100} />
+          <Image
+            src={sandwich}
+            alt={`SVG image of a sandwich.`}
+            width={100}
+            height={100}
+          />
 
           <h3>PANINI</h3>
         </div>
         <div>
-          <Image src={burger} alt={`Pink burger`} width={100} height={100} />
+          <Image
+            src={burger}
+            alt={`SVG image of a pink burger.`}
+            width={100}
+            height={100}
+          />
           <h3>BURGER</h3>
         </div>
         <div>
-          <Image src={taco} alt={``} width={100} height={100} />
+          <Image
+            src={taco}
+            alt={`SVG image of a taco.`}
+            width={100}
+            height={100}
+          />
 
           <h3>TEX MEX</h3>
         </div>
         <div>
-          <Image src={kebab} alt={``} width={100} height={100} />
+          <Image
+            src={kebab}
+            alt={`SVG image of a Kebab.`}
+            width={100}
+            height={100}
+          />
 
           <h3>ASSIETTE</h3>
         </div>
         <div>
           <Image
             src={dessert}
-            alt={`Image of a cupcake`}
+            alt={`SVG image of a cupcake.`}
             width={100}
             height={100}
           />
@@ -53,7 +83,7 @@ function Carte() {
         <div>
           <Image
             src={drink}
-            alt={`Image of a bottle.`}
+            alt={`SVG image of a bottle.`}
             width={100}
             height={100}
           />
