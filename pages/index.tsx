@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import Carte from "../components/Carte";
+import Carte from "../components/carte/Carte";
 
 const Home: NextPage = () => {
   return <Carte />;
