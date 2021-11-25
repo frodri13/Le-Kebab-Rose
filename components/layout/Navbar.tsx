@@ -5,7 +5,6 @@ function navbar() {
   return (
     <nav>
       <div className="logo">
-        <h3>+33798342803</h3>
         <Image
           src={logo}
           alt={`Logo de le Kebab Rose`}
