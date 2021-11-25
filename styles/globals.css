@@ -39,8 +39,12 @@ nav {
   flex: 1 1 20rem;
   padding: 1rem;
 }
-footer h3 {
-  color: blue;
+footer {
+  color: white;
+  background: black;
+  margin: none;
+  display: flex;
+  justify-content: space-evenly;
 }
 li {
   list-style: none;

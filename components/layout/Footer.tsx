@@ -1,9 +1,8 @@
 function Footer() {
   return (
     <footer>
-      <div>
-        <h3>Footer</h3>
-      </div>
+      <h3>Le Kebab Rose &copy;</h3>
+      <h3>Telephone: +338908234920</h3>
     </footer>
   );
 }
