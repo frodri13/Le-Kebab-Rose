@@ -1,4 +1,4 @@
-import Entree from "./options/entree";
+import Entree from "./options/Entree";
 
 function Options() {
   return <Entree />;
